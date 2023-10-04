@@ -1,0 +1,14 @@
+{
+  "name": "Change Facebook Color",
+  "version": "1.0",
+  "description": "Thay đổi màu nền Facebook",
+  "manifest_version": 3,
+   "content_scripts": [
+        {
+            "matches": ["https://*.1688.com/", "https://*.1688.com/*"],
+            "css": ["css/style.css"],
+            "js": ["js/custom.js"]
+        }
+    ]
+    
+}
